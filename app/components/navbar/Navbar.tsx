@@ -1,4 +1,5 @@
 import Container from "../Conatiner";
+import Logo from "./Logo";
 
 const Navbar = () => {
 	return (
@@ -15,7 +16,7 @@ const Navbar = () => {
 							md:gap-0
 					"
 					>
-						Navbar
+						<Logo />
 					</div>
 				</Container>
 			</div>
